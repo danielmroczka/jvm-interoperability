@@ -1,0 +1,6 @@
+rootProject.name = 'jvm-interoperability'
+
+include 'groovy-lib'
+include 'java-lib'
+include 'kotlin-lib'
+include 'scala-lib'

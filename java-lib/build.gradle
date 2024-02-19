@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.dm.labs.jvm'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    implementation project(":kotlin-lib")
+    implementation project(":groovy-lib")
+    implementation project(":scala-lib")
+}
+
+test {
+    useJUnitPlatform()
+}
