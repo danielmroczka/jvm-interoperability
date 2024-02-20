@@ -1,4 +1,4 @@
-package com.dm.labs.lib.groovy
+package com.labs.dm.lib.groovy
 
 //import com.dm.labs.lib.java.JavaLib
 
@@ -7,6 +7,6 @@ class Main {
 
     static void main(String[] args) {
         println("Hello World")
-     //   javaLib.subb(100, 10)
+        //   javaLib.subb(100, 10)
     }
 }
